@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechComponent implements OnInit {
 
-  constructor() { }
+    list: Array<string>;
+
+  constructor() {
+
+    this.list = ['Un', 'Deux'];
+   }
 
   ngOnInit(): void {
   }
